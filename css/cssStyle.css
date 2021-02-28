@@ -1,0 +1,199 @@
+body {
+     background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+ 
+.menu{
+    background-color: rgb(13, 4, 37);
+}
+
+.sizeMainCard{
+    max-height: 400px;
+}/* taille de card en image */
+
+.position{
+    text-align: center;
+    margin-top: 20px;
+ }/* position de textes dans la card en image */
+
+ .divmain{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: 20px;
+    color: rgb(150, 142, 142); 
+    margin-bottom: 10px;
+}/* div main en dessous de la card en image  */
+
+.bg-alert{
+    background-color: #fd7e14;
+    color: #fff;
+    text-align: justify;
+}
+
+.titre-alert{
+    text-align: center;
+}
+.titrearticle{
+    text-align: center;
+    color: rgb(66, 64, 61);
+}/* titre première article*/
+
+.text{
+    text-align: justify;
+    color: rgb(148, 148, 153);
+ }/* mis à forme textes de l'article */
+
+ .presentation{
+     background-color: rgb(13, 4, 37);
+     border-radius: 15px;
+     
+ }
+
+ .titrepresentation{
+     text-align: center;
+     color: #fd7e14;
+     padding-top: 30px;
+ }
+
+ .sizimage{
+     width: 200px;
+     height: 200px;
+     margin: 80px;
+     border: solid 2px #fd7e14;
+     object-fit: cover;
+ }
+
+ .bg-colorpresentation{
+     background-color:  rgb(13, 4, 37);
+     border: 0;
+    }
+
+ .footercard{
+     background-color: #fd7e14;
+     margin: 10px;
+     border-top: 20px;
+     font-size: 20px;
+ }
+
+ .titrecard{
+    color: black;
+ }
+
+ /* apropos */
+ .btn-color{
+     /* display: flex;
+     align-items: center; */
+     background-color: rgb(13, 4, 37);
+     color: white;
+     margin-left: 570px;
+ }
+
+ .Apropos{
+     border: 0;
+     width: auto;
+ }
+
+ .menbres{
+     /* background: white; */
+     /* margin-left: 20px;  */
+     /* border: solid 2px #fd7e14; */
+      margin: 0px;
+     
+
+ }
+
+ .sizeimge{
+     height: 250px;
+ }
+
+ .imgmenbres{
+     width: 200px;
+     height: 200px;
+    
+     object-fit: cover;
+     padding: 30px;
+
+    
+     
+ }
+
+ /* commentaire */
+
+.commentaireguid{
+    margin-top: 10%;
+    margin-bottom: 10px;
+   
+}
+
+.btn-warnings{
+    background-color: #fd7e14;
+    margin-left: 200px;
+
+}
+
+ /* close commentaire */
+
+ /* commentaire et guide */
+ .carte{
+     color: rgb(245, 240, 240);
+     margin-left: 15%;
+     border: 0px;
+ }
+.body-card{
+    background-color: rgb(13, 4, 37);
+
+}
+
+.header-card{
+    background-color: #fd7e14;
+    border-radius: 20px;
+ } 
+ /*close commentaire et guide */
+
+.front_footer{
+    height: 300px;
+    background-color: rgb(47, 91, 172);
+    color: #fff;
+    box-shadow: 5px 5px 10px #c6c3cc;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.texte{
+    margin-top: 100px;
+    font-size: 1.6em;
+    font-style: oblique 20deg;
+}   
+
+.bouton{
+    /* float: left; */
+    margin-top: 125px;
+    margin-left: -50px;
+    height: 70px;
+    width: 210px;
+    box-shadow: 5px 5px 5px #170c2e;
+    
+    
+}
+
+ /* footer */
+ .footer{
+     background-color: rgb(31, 29, 29);
+        /* background-image: linear-gradient(rgb(13, 4, 37), rgb(61, 38, 4)); */
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: justify;
+        margin: 1px;
+        border: 0px;
+    }
+
+    .colonefooter{
+        height: 250px;
+        border: solid 1px white;
+     }
+    
+    .ligne_in_footer{
+        background-color: #fff;
+        margin: 1px;
+    }
+    /* close footer */
