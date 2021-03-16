@@ -9,66 +9,25 @@
     </head>
     <body>
         <header>
-           <div class="menu ">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Versement</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Membres & cas social</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Gestion</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Apropos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inscription</a>
-                      </li>
-                      <li class="nav-item">
-                  </ul>
+          <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="menu p-4">
+                <h5 class="text-warning h6"><a href="inde.php">Acceuil</a></h5>
+                <h5 class="text-warning h6"><a href="versement.php">Versement</a></h5>
+                <h5 class="text-warning h6"><a href="membres.php">Menbres & Cas social</a></h5>
+                <h5 class="text-warning h6"><a href="gestion.php">Gestion</a></h5>
+                <h5 class="text-warning h6"><a href="apropos.php">Apropos</a></h5>
+                <h5 class="text-warning h6"><a href="inscrire.php">S'inscrir</a></h5>
+              </div>
             </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
         </header><!--menu close -->
           <section>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-            
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="images/coolman.jpg" alt="...">
-                  <div class="carousel-caption">
-                    ...
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="images/coolman1.jpg" alt="...">
-                  <div class="carousel-caption">
-                    ...
-                  </div>
-                </div>
-                ...
-              </div>
-            
-              <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
           <div class="container light shadow-sm p-3 mb-5 bg-body rounded divmain"> <!--divmain-->
              <div class="alert alert-success shadow-lg p-3 mb-5 bg-body rounded bg-alert" role="alert">
                 <h4 class="alert-heading titre titre-alert">A la une</h4>
@@ -138,39 +97,16 @@
                   </p>
                 </div>
               </div>
-              <!-- <div>
-                <h4 class="text-center">Nos photos</h4>
-                <div class="wrapper">
-                  <div><img src="images/coolman.jpg" alt=""></div>
-                  <div><img src="images/coolman.jpg" alt="">
-                    <p>I have some more content in.</p>
-                    <p>This makes me taller than 100 pixels.</p>
-                  </div>
-                  <div><img src="images/coolman.jpg" alt=""></div>
-                  <div><img src="images/coolman.jpg" alt=""></div>
-                  <div><img src="images/coolman.jpg" alt=""></div>
-                </div> -->
+
                 <!-- grille de carte images  -->
              </div> 
               <a href="#" class="btn btn-color shadow-lg p-3 mb-4 bg-body rounded">En savoir plus</a> 
           </div> 
           <!--close divmain -->
-          <div class="container-fluid menbres"> <!--photos des Membres-->
+          <div class="container-fluid menbres"> <!--photos des Membres      https://youtu.be/0YHh9eF_I64-->
             <h4>Nos menbres</h4>
           <div class="row ">
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
-              <img src="images/coolman.jpg" class="rounded-circle imgmenbres" alt="">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ratione placeat officiis ipsam, quam impedit fugit ipsum saepe. Qui rerum, aperiam eveniet incidunt maiores tenetur vitae voluptatem delectus officia nemo!</p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
-              <img src="images/coolman1.jpg" class="rounded-circle imgmenbres" alt="">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi provident expedita illo ducimus id, atque libero eum. Similique soluta ullam nemo nobis reiciendis in. Odit blanditiis inventore accusamus at.</p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
-              <img src="images/original.jpg" class="rounded-circle imgmenbres" alt="">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque pariatur delectus illum est ipsam reiciendis rerum iure? Perferendis reprehenderit dolor tempore sit doloremque cupiditate, dolorum beatae laborum eius necessitatibus.</p>
-            </div>
-          </div>
+            
 
           <div class="row ">
             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
@@ -258,24 +194,22 @@
           <footer class="row footer "> <!--footer page--> 
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facilis tenetur unde numquam, possimus totam, ipsam rem, libero voluptatum harum culpa perspiciatis sint amet officiis nulla quidem corrupti deleniti obcaecati.
+                <h5> Nos Adresses</h5>
               </span>
             </nav>
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facilis tenetur unde numquam, possimus totam, ipsam rem, libero voluptatum harum culpa perspiciatis sint amet officiis nulla quidem corrupti deleniti obcaecati.
-              </span>
+              <h5>Contacts</h5>
+            </span>
             </nav>
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facilis tenetur unde numquam, possimus totam, ipsam rem, libero voluptatum harum culpa perspiciatis sint amet officiis nulla quidem corrupti deleniti obcaecati.
-              </span>
+              <h5> Partenaires</h5>
+            </span>
             </nav>
             <aside class="container-fluid">
               <hr class="ligne_in_footer">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur numquam itaque magni suscipit sint? Possimus, nobis dicta quae in similique officiis, praesentium earum corrupti molestiae, vel minima adipisci neque ex!
-              </span>
+              <p class="laster"><a href=""><i class="fas fa-phone-alt"></i>  contact our softward ingenier</a></p>
             </aside>
           </footer> <!--close footer-->
           </section>
