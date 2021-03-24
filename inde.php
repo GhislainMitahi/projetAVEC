@@ -225,6 +225,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div> <!-- close troisieme colonne -->
         
           <!-- commentaire et guide-->
