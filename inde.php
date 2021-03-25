@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/avecstyle.css">
         <link rel="stylesheet" href="css/all.min.css">
     </head>
-    <body>
+  <body>
         <header>
         <?php include('menu.php')?>
         </header><!--menu close -->
@@ -67,170 +67,174 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to </p>
                     </div>
                     <div class="card-footer footercard">
-                      
                     </div>
                   </div>
                 </div>
               </div>
             </nav> <!-- close nos leaders-->
-            <h1 class="text-center">Membres </h1>
-            <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img class="photo"src="images/coolman.jpg" alt="...">
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below </p>
+            <!-- Apropos de l'entreprises  -->
+            <div id="date" class="container-fluid">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col text-center">
+                          <p class="begyear">1996</p>
+                          <p class="enderbyear">Année de création</p>
+                      </div>
+                      <div class="col text-center"> 
+                        <p class="begyear"><?php echo "" .date('d');?></p>
+                        <p class="enderbyear">Aujourd'hui</p>
+                      </div>
+                      <div class="col text-cente">
+                        <p class="begyear"><?php echo "" .date('m');?></p>
+                        <p class="enderbyear">Actuel mois</p>
+                      </div>
+                      <div class="col text-cent">
+                        <p class="begyear"><?php echo "" .date('y');?></p>
+                        <p>Actuelle Année</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="container mainApropos">
+              <div class="row">
+              <div class="col-6">
+                <h5 class="text-center h1 p-1">Apropos</h5>
+                <hr class="ligne">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quas.</p>
+                <span class="font-weight-bold text-center">+ d'infos</span>
               </div>
+              <div class="col-6" ><img src="images/bb11.jpeg"  class="photoAp" alt="">
             </div>
           </div>
         </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
+        <div id="actualite" class="text-center">
+          <h1>Actualite</h1>
+          <hr class="ligne">
+          <p>Ne manquez aucune actualité à propos de la société AVEC en aimant notre page Facebook!</p>
+          <i class="fab fa-facebook fa-5x"></i>
+      </div>
+          <!-- <nav class="container">
+            <div id="apropos">
+                 <h1>Apropos</h1> 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, nesciunt.
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, nam.
+                    </p>
+                    <img src="images/pc.jpg"  class="imageAP" alt="">
+
+
+
+                
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- close premiere colonne membre-->
-  
-        <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img class="photo"src="images/coolman.jpg" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        </div> <!-- close deuxieme colonne -->
-        <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img class="photo"src="images/coolman.jpg" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-    <div class="col-md-4">
-      
-    <div class="card mb-3">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img class="photo"src="images/coolman.jpg" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div> <!-- close troisieme colonne -->
-        
-          <!-- commentaire et guide-->
-          <div class="container commentaireguid">
+          </nav> -->
+        <nav class="">
+          <h1 class="text-center titremembre">Membres </h1>
+          <div class="container-fluid">
             <div class="row">
+              <div class="col-md-4">
+               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="photo"src="images/coolman.jpg" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4"> 
+              <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img class="photo"src="images/coolman.jpg" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below </p>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+              <div class="col-md-4"> 
+                  <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                     <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img class="photo"src="images/coolman.jpg" alt="...">
+                         </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="text-decoration">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class=" container ligne1">
+                 <!-- close premiere colonne membre-->
+                <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              
+            <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img class="photo"src="images/coolman.jpg" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              
+            <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="photo"src="images/coolman.jpg" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="col-md-4">
+               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img class="photo"src="images/coolman.jpg" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center " ><i class="fas fa-angle-down fa-5x"></i></p>
+            </nav>
+             <!-- close deuxieme colonne -->
+            
+          <!-- commentaire et guide-->
+          <div class="container commentair-fluid">
+            <!-- <div class="row">
             <div class="col-sx-6 col-sm-6 col-md-6 col-lg-6 shadow p-3 mb-5 bg-body rounded comentaire">
             <h4 class="text-center">COMMENTAIRE</h4>
             <div class="form-floating">
@@ -253,7 +257,7 @@
               </div>
               <button type="submit" class="btn btn-warnings bg-body rounded">Envoyer</button>
             </form>
-            </div>
+            </div> -->
             <div class="col-sx-6 col-sm-6 col-md-6 col-lg-6">
               <div class="card carte containere-fluid mb-3 shadow p-3 mb-5 ">
                 <div class="card-header header-card text-center">Guide</div>
@@ -281,27 +285,32 @@
             </div>
           </div>
          </div>
-          <footer class="row footer "> <!--footer page--> 
+         <footer  class="contenair-fluid" style="margin:-15px">
+          <div class="row footer "> <!--footer page--> 
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-                <h5> Nos Adresses</h5>
+                <h5 class="text-center"> Nos Adresses</h5>
+                <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
               </span>
             </nav>
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-              <h5>Contacts</h5>
+              <h5 class=text-center>Contacts</h5>
+              <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
             </span>
             </nav>
             <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
               <span>
-              <h5> Partenaires</h5>
+              <h5 class="text-center"> Partenaires</h5>
+              <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
             </span>
             </nav>
             <aside class="container-fluid">
               <hr class="ligne_in_footer">
               <p class="laster"><a href=""><i class="fas fa-phone-alt"></i>  contact our softward ingenier</a></p>
             </aside>
-          </footer> <!--close footer-->
+          </div> 
+          </footer><!--close footer-->
           </section>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
