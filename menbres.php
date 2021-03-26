@@ -9,39 +9,24 @@
     </head>
             <body>
             <header>
-                    <div class="fixed-top">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="menu p-4">
-                        <h5 class="text-warning h6"><a href="inde.php">Acceuil</a></h5>
-                <h5 class="text-warning h6"><a href="versement.php">Versement</a></h5>
-                <h5 class="text-warning h6"><a href="menbres.php">Menbres & Cas social</a></h5>
-                <h5 class="text-warning h6"><a href="gestion.php">Gestion</a></h5>
-                <h5 class="text-warning h6"><a href="apropos.php">Apropos</a></h5>
-                <h5 class="text-warning h6"><a href="inscrire.php">S'inscrir</a></h5>
-                        </div>
-                    </div>
-                    <nav class="navbar navbar-dark bg-dark">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                    </div>
+            <?php include('menu.php')?>
                 </header><!--menu close -->
                 <div class="container">
-                <h4> LISTE DES MENBRES</h4>
                 <form style="padding-top:100px">
+                <h4 style="text-align:center;margin-bottom:30px"> LISTE DES MENBRES</h4>
                 <div class="form-group row">
-                    <label for="inputnom" class="col-sm-2 col-form-label">Nom*</label>
+                    <label for="inputnom" class="col-sm-2 col-form-label">RECHERCHE*</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputPassword3">
+                      <input type="text" class="form-control" id="inputPassword3" value="trouvez le menbre ici">
+                    </div>
                     </div>
                   </div>
                 </form>
                 </div>
                 <div class="container-fluid menbres shadow p-3 mb-5 bg-white rounded">
-                <div class="row row-cols-4 colonnes">
+                <div class="row row-cols-4 colonnes ">
                     <div class="col-md-2 ">
-                        <img src="images/coolman.jpg" class="imgmenbres " alt="">
+                        <a href="comptes.php"><img src="images/coolman.jpg" class="imgmenbres " alt=""></a>
                     </div>
                     <div class="col-md-3">
                     <h5>Card title</h5>

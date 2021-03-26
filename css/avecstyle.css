@@ -1,53 +1,158 @@
 body {
      background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+    
+}
+
  
 .menu{
     background-color: rgb(13, 4, 37);
+}
+/* ******************************** plage de travail****************************** */
+
+#imgAvec{
+    background-image: url(https://images.pexels.com/photos/4240576/pexels-photo-4240576.jpeg?cs=srgb&dl=pexels-ivan-samkov-4240576.jpg&fm=jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+}
+
+#imgAvec h1 {
+    font-size: 50px;
+}
+
+#imgAvec p {
+    font-size: 30px;
+}
+
+.annee{
+    margin-top: 10px;
+}
+
+.labele0{
+    margin-top: 10px;
+    height: auto; 
+    padding:0px 0px;
+} 
+
+
+.labele1{
+    margin-bottom: 20px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+/* partie apropos */
+
+#date{
+    height: 100px;
+    background-color: #fd7e14;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.begyear{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: -10px;
+}
+.enderbyear{
+    color:rgb(13, 4, 37);
+}
+
+.photoAp{
+    background-size: cover;
+    max-width: 100%;
+    max-height: 90%; 
+
+}
+
+.ligne1{
+    border: solid #fd7e14 1px;
+    margin-top: -20px;
     
 }
-.textcouleur{
-    color: #fd7e14;
+.ligne{
+    border: #fd7e14 solid 3px;
+    
+    width: 11%;
+}
+/* #apropos{
+
+    max-height: 50%;
+    margin: 50px;
+
 }
 
-.sizeMainCard{
-    max-height: 400px;
-}/* taille de card en image */
 
-.position{
+#apropos h1{
+
     text-align: center;
-    margin-top: 20px;
- }/* position de textes dans la card en image */
 
- .divmain{
-    background-color: rgb(255, 255, 255);
-    height: auto;
-    margin-top: 20px;
-    color: rgb(150, 142, 142); 
-    margin-bottom: 10px;
-}/* div main en dessous de la card en image  */
+}
 
-.bg-alert{
-    background-color: #fd7e14;
+#apropos p{
+    
+    width: 50%;
+    height: 15%;
+    border: rgb(4, 4, 36) solid 2px;
+    position: absolute;
+    right: 40px; left: 40px;
+    margin-top: 80px;
+    margin-left: 300px;
     color: #fff;
-    text-align: justify;
-    margin-top: 50px;
+    background-color: rgb(13, 4, 37);
+
+
 }
 
-.titre-alert{
+#apropos .imageAP{
+
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+
+} */
+.mainApropos{
+
+    margin-bottom: -36px;
+}
+
+#actualite{
+    background-color: rgb(13, 4, 37);
+    height: 300px;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+
+#actualite p{
+   
+    padding-top: 50px ;
+}
+
+/*  close partie apropos  */
+.photo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titremembre{
+    margin: 30px;
+
+}
+.icon{
     text-align: center;
 }
-.titrearticle{
-    text-align: center;
-    color: rgb(66, 64, 61);
-}/* titre première article*/
 
-.text{
-    text-align: justify;
-    color: rgb(148, 148, 153);
- }/* mis à forme textes de l'article */
-
+/* *************************************** plage de travail******************************* */
  .presentation{
      background-color: rgb(13, 4, 37);
      border-radius: 15px;
@@ -93,40 +198,18 @@ body {
      margin-left: 570px;
  }
 
- .Apropos{
-     border: 0;
-     width: auto;
- }
-
- .menbres{
-     /* background: white; */
-     /* margin-left: 20px;  */
-     /* border: solid 2px #fd7e14; */
-      margin: 0px;
-     
-
- }
 
  .sizeimge{
      height: 250px;
  }
 
- .imgmenbres{
-     width: 200px;
-     height: 200px;
-     object-fit: cover;
-     padding: 30px;
-
-    
-     
- }
 
  /* commentaire */
 
 .commentaireguid{
     margin-top: 10%;
     margin-bottom: 10px;
-   
+  
 }
 
 .btn-warnings{
@@ -172,7 +255,6 @@ body {
 }   
 
 .bouton{
-    /* float: left; */
     margin-top: 125px;
     margin-left: -50px;
     height: 70px;
@@ -225,7 +307,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* background-color: #170c2e; */
+        
     }
 
     .titleinscrir{
@@ -234,33 +316,8 @@ body {
         margin-bottom: 50px;
 
     }
+
     .btn-couleur{
         background-color: rgb(47, 91, 172);
     }
 
-    /* cfr la page menbres */
-
-    .imgmenbres{
-        width: 100px;
-        height: 100px;
-        padding: 0px;
-        margin:30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menbres{
-        /* margin-top: 100px; */
-        box-shadow: rgb(233, 192, 118);
-    }
-
-     .colonnes{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }  
-
-    .paragraph{
-        margin:0px 0px 0px 0px;
-    }wejiwdj
