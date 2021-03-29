@@ -9,28 +9,61 @@
     </head>
             <body>
                 <header>
-                    <div class="fixed-top">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="menu p-4">
-                        <h5 class="text-warning h6"><a href="inde.php">Acceuil</a></h5>
-                <h5 class="text-warning h6"><a href="versement.php">Versement</a></h5>
-                <h5 class="text-warning h6"><a href="menbres.php">Menbres & Cas social</a></h5>
-                <h5 class="text-warning h6"><a href="gestion.php">Gestion</a></h5>
-                <h5 class="text-warning h6"><a href="apropos.php">Apropos</a></h5>
-                <h5 class="text-warning h6"><a href="inscrire.php">S'inscrir</a></h5>
-                        </div>
-                    </div>
-                    <nav class="navbar navbar-dark bg-dark">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                    </div>
-                </header><!--menu close -->
+                   <?php include("menu.php")?>
+                </header>
                 
 
 
-                <div class="card mb-3">
+
+
+
+                <table class="table">
+  <caption>List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+             
+                
+        
+        
+        <?php include("footer.php")?>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img class="photo"src="images/coolman.jpg" alt="...">
@@ -42,45 +75,4 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-
-             
-                
-        
-        <div class="contenaire-fluid text-center front_footer">
-           <div class="row">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-              <p class="texte"><strong>AVEC</strong> est à votre niveau <br> 
-              Faites vos epargnes tout les jours<br>à chaque heure vous gagnerai plus </p>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-              <button type="button" class="btn btn-warnings btn-lg bouton"> En savoir</button>
-            </div>
-          </div>
-         </div>
-        <footer class="row footer "> <!--footer page--> 
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-                <h5> Nos dressesA</h5>
-              </span>
-            </nav>
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-              <h5>Contacts</h5>
-            </span>
-            </nav>
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-              <h5> Partenaires</h5>
-            </span>
-            </nav>
-            <aside class="container-fluid">
-              <hr class="ligne_in_footer">
-              <p class="laster"><a href=""><i class="fas fa-phone-alt"></i>  contact our softward ingenier</a></p>
-            </aside>
-          </footer> <!--close footer-->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+            </div> -->

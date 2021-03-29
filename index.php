@@ -37,7 +37,7 @@
                <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100 bg-colorpresentation">
-                    <img src="images/image1.jpg" class="rounded-circle sizimage" alt="...">
+                    <img src="images/image1.jpg" class="rounded-circle sizimage center-block" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="col">
                   <div class="card h-100 bg-colorpresentation">
-                    <img src="images/image1.jpg" class="rounded-circle  sizimage" alt="...">
+                   <p class="center-block"> <img src="images/image1.jpg" class="rounded-circle  sizimage center-block" alt="..."></p>
                     <div class="card-body">
                       <h5 class="card-title titrecard2">Card title</h5>
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -67,6 +67,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to </p>
                     </div>
                     <div class="card-footer footercard">
+                    <small class="text-white">Last updated 3 mins ago</small>
                     </div>
                   </div>
                 </div>
@@ -89,46 +90,35 @@
                         <p class="begyear"><?php echo "" .date('m');?></p>
                         <p class="enderbyear">Actuel mois</p>
                       </div>
-                      <div class="col text-cent">
+                      <div class="col text-center">
                         <p class="begyear"><?php echo "" .date('y');?></p>
                         <p>Actuelle Année</p>
                       </div>
                   </div>
                 </div>
             </div>
-            <div class="container mainApropos">
+            <div class="container mainApropos shadow p-1 mb-0 rounded">
               <div class="row">
               <div class="col-6">
-                <h5 class="text-center h1 p-1">Apropos</h5>
+                <h5 class="text-center h1 p-1">A propos</h5>
                 <hr class="ligne">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quas.</p>
+                <p style="padding:10px" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
+                </p>
                 <span class="font-weight-bold text-center">+ d'infos</span>
               </div>
               <div class="col-6" ><img src="images/bb11.jpeg"  class="photoAp" alt="">
             </div>
           </div>
         </div>
-        <div id="actualite" class="text-center">
+        <div id="actualite" class="text-center col">
           <h1>Actualite</h1>
           <hr class="ligne">
           <p>Ne manquez aucune actualité à propos de la société AVEC en aimant notre page Facebook!</p>
-          <i class="fab fa-facebook fa-5x"></i>
+          <i class="fab fa-facebook fa-5x bgcolorfb"> <a href="gestion.php"></a></i>
       </div>
-          <!-- <nav class="container">
-            <div id="apropos">
-                 <h1>Apropos</h1> 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, nesciunt.
-                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, nam.
-                    </p>
-                    <img src="images/pc.jpg"  class="imageAP" alt="">
-
-
-
-                
-              </div>
-          </nav> -->
         <nav class="">
           <h1 class="text-center titremembre">Membres </h1>
+          <hr class="ligne">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-4">
@@ -176,13 +166,12 @@
                       </div>
                     </div>
                   </div>
-                  <hr class=" container ligne1">
-                 <!-- close premiere colonne membre-->
+                <hr class=" container ligne1">
+              <!-- close premiere colonne membre-->
                 <div class="container-fluid">
           <div class="row">
             <div class="col-md-4">
-              
-            <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
+              <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                   <div class="row no-gutters">
                     <div class="col-md-4">
                       <img class="photo"src="images/coolman.jpg" alt="...">
@@ -196,8 +185,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-4">
-              
+            <div class="col-md-4"> 
             <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                     <div class="row no-gutters">
                       <div class="col-md-4">
@@ -228,91 +216,83 @@
                   </div>
                 </div>
               </div>
-              <p class="text-center " ><i class="fas fa-angle-down fa-5x"></i></p>
-            </nav>
-             <!-- close deuxieme colonne -->
-            
-          <!-- commentaire et guide-->
-          <div class="container commentair-fluid">
-            <!-- <div class="row">
-            <div class="col-sx-6 col-sm-6 col-md-6 col-lg-6 shadow p-3 mb-5 bg-body rounded comentaire">
-            <h4 class="text-center">COMMENTAIRE</h4>
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Mettez votre commentaire ici" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Commentaire</label>
-            </div>
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Addresse Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre e-mail avec qui que ce soit.</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">mot de passe</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">regarde moi</label>
-              </div>
-              <button type="submit" class="btn btn-warnings bg-body rounded">Envoyer</button>
-            </form>
-            </div> -->
-            <div class="col-sx-6 col-sm-6 col-md-6 col-lg-6">
-              <div class="card carte containere-fluid mb-3 shadow p-3 mb-5 ">
-                <div class="card-header header-card text-center">Guide</div>
-                 <div class="card-body body-card ">
-                  <h6 class="card-title "> Pour plus d'orientation consulter ces titres</h6>
-                   <div class="card-text text-lowercase sousTitre">
-                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8>S'inscrire</h8><br>
-                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8>Notre Addresse</h8><br>
-                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8 >perspective d'avenir</h8><br>
-                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8 >Offres d'emploies disponibles</h8>
+            <p class="text-center"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></p>
+              <div class="container-fluid px-lg-5 shadow  mb-1 bg-white rounded">
+                  <div class="row mx-lg-n5">
+                    <div class="col py-3 px-lg-5  ">
+                        <div id="carouselExampleCaptions" class="carousel slide imgcarousel maincarousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/bb11.jpeg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/pc.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/office.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                    <div class="col py-3 px-lg-5 ">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+                              <div class="card carte containere-fluid mb-3 shadow p-0 carte">
+                                <div class="card-header header-card text-center">Guide</div>
+                                <div class="card-body body-card ">
+                                  <h6 class="card-title "> Pour plus d'orientation consulter ces titres</h6>
+                                  <div class="card-text text-lowercase sousTitre">
+                                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8>S'inscrire</h8><br>
+                                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8>Notre Addresse</h8><br>
+                                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8 >perspective d'avenir</h8><br>
+                                    <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8 >Offres d'emploies disponibles</h8>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                <div class="contenaire-fluid text-center front_footer">
+                  <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                      <p class="texte"><strong>AVEC</strong> est à votre niveau <br> 
+                      Faites vos epargnes tout les jours<br>à chaque heure vous gagnerai plus </p>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <button type="button" class="btn btn-warnings btn-lg bouton bgcolor"> En savoir</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-         </div> <!--close commentaire et guide --> 
-         <div class="contenaire-fluid text-center front_footer">
-           <div class="row">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-              <p class="texte"><strong>AVEC</strong> est à votre niveau <br> 
-              Faites vos epargnes tout les jours<br>à chaque heure vous gagnerai plus </p>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-              <button type="button" class="btn btn-warnings btn-lg bouton"> En savoir</button>
-            </div>
-          </div>
-         </div>
-         <footer  class="contenair-fluid" style="margin:-15px">
-          <div class="row footer "> <!--footer page--> 
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-                <h5 class="text-center"> Nos Adresses</h5>
-                <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
-              </span>
-            </nav>
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-              <h5 class=text-center>Contacts</h5>
-              <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
-            </span>
-            </nav>
-            <nav  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 colonefooter ">
-              <span>
-              <h5 class="text-center"> Partenaires</h5>
-              <p class="text-muted p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus!</p>
-            </span>
-            </nav>
-            <aside class="container-fluid">
-              <hr class="ligne_in_footer">
-              <p class="laster"><a href=""><i class="fas fa-phone-alt"></i>  contact our softward ingenier</a></p>
-            </aside>
-          </div> 
-          </footer><!--close footer-->
-          </section>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
-</htlm>
+                <?php include('footer.php')?>
+                  </section>
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+            </body>
+        </htlm>

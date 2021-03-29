@@ -56,7 +56,6 @@ body {
     margin-top: 50px;
     margin-right: 10px;
 }
-
 .begyear{
     font-size: 50px;
     color: #fff;
@@ -69,7 +68,8 @@ body {
 .photoAp{
     background-size: cover;
     max-width: 100%;
-    max-height: 90%; 
+    max-height: 100%; 
+    
 
 }
 
@@ -80,8 +80,43 @@ body {
 }
 .ligne{
     border: #fd7e14 solid 3px;
-    
     width: 11%;
+}
+
+.lignetitre{
+    border: #fd7e14 solid 3px;
+    width: 12%;
+}
+
+.maincarousel{
+    padding-bottom: -40px;
+}
+
+.imgcarousel{
+    width: 100%;
+    height: 100%;
+}
+
+.carte{
+    width: 200%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.bgcolor{
+
+    background-color: #fd7e14;
+    border-radius: 0 20px 0 20px;
+    color: rgb(13, 4, 37);
+}
+
+.bgcolor:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fd7e14;
+}
+
+.bgcolorfb:hover{
+    color: #fd7e14;
 }
 /* #apropos{
 
@@ -120,7 +155,7 @@ body {
 
 } */
 .mainApropos{
-
+    
     margin-bottom: -36px;
 }
 
@@ -135,7 +170,8 @@ body {
 
 #actualite p{
    
-    padding-top: 50px ;
+    padding-top: 50px;
+    
 }
 
 /*  close partie apropos  */
@@ -145,7 +181,8 @@ body {
 }
 
 .titremembre{
-    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
 
 }
 .icon{
@@ -166,16 +203,17 @@ body {
  }
 
  .sizimage{
-     width: 200px;
-     height: 200px;
-     margin: 80px;
+     width: 150px;
+     height: 150px;
      border: solid 2px #fd7e14;
-     object-fit: cover;
+     background-size: cover;
+     margin-left: 45px;
  }
 
  .bg-colorpresentation{
      background-color:  rgb(13, 4, 37);
      border: 0;
+     color: #fff;
     }
 
  .footercard{
@@ -204,13 +242,7 @@ body {
  }
 
 
- /* commentaire */
 
-.commentaireguid{
-    margin-top: 10%;
-    margin-bottom: 10px;
-  
-}
 
 .btn-warnings{
     background-color: #fd7e14;
@@ -218,7 +250,6 @@ body {
 
 }
 
- /* close commentaire */
 
  /* commentaire et guide */
  .carte{
@@ -294,7 +325,7 @@ body {
 
     .login{
         /* background-color: rgb(223, 215, 215);  */
-        height: 600px;
+        height: 550px;
         padding-top: 100px;
        
     }
@@ -308,6 +339,7 @@ body {
         align-items: center;
         justify-content: center;
         
+        
     }
 
     .titleinscrir{
@@ -319,5 +351,61 @@ body {
 
     .btn-couleur{
         background-color: rgb(47, 91, 172);
+        float: right;
+        margin-right: -140px;
+       
     }
 
+    /* *********page vesement ****************/
+.maindver
+{
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg);
+    background-position: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.div1
+{
+    background: rgb(255, 255, 255,0.5);
+    box-shadow: 0 5px 10px rgba(255, 255, 255,0.5);
+    border-radius: 20px;
+    padding: 20px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.div1 a
+{
+   text-decoration: 0;
+}
+
+.versmenu
+{  
+     margin-top: 50px;
+     
+}
+
+.line
+{
+    background-color: #fd7e14;
+    height: 2px;
+}
+
+.inmen
+{
+    color: #fd7e14;
+}
+
+.inmen:hover
+{
+    box-shadow:0 5px 10px rgb(13, 4, 37);
+    font-size: 25px;
+    border-radius: 20px;
+    color:  rgb(13, 4, 37);
+}
