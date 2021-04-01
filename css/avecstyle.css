@@ -7,6 +7,19 @@ body {
  
 .menu{
     background-color: rgb(13, 4, 37);
+    color: #fd7e14;
+}
+
+.txtAcceuil:hover
+{
+    color: #fd7e14;
+}
+
+#navbarNav ul
+{
+    
+    border-radius: 10px;
+    
 }
 /* ******************************** plage de travail****************************** */
 
@@ -81,6 +94,7 @@ body {
 .ligne{
     border: #fd7e14 solid 3px;
     width: 11%;
+    background-color:#fd7e14 ;
 }
 
 .lignetitre{
@@ -113,6 +127,7 @@ body {
 .bgcolor:hover{
     background-color: rgb(0, 0, 0);
     color: #fd7e14;
+    margin-left: 5px;
 }
 
 .bgcolorfb:hover{
@@ -157,6 +172,19 @@ body {
 .mainApropos{
     
     margin-bottom: -36px;
+    
+}
+
+.infoplus
+{
+    color: #fd7e14;
+    border-radius: 20px; 
+}
+
+.infoplus:hover
+{
+    text-decoration: 0;
+    color: rgb(13, 4, 37);
 }
 
 #actualite{
@@ -270,9 +298,9 @@ body {
 
 .front_footer{
     height: 300px;
-    background-color: rgb(47, 91, 172);
+    background-color: rgb(13, 4, 37);
     color: #fff;
-    box-shadow: 5px 5px 10px #c6c3cc;
+    box-shadow: 5px 5px 10px #e07511;
     margin: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -290,14 +318,18 @@ body {
     margin-left: -50px;
     height: 70px;
     width: 210px;
-    box-shadow: 5px 5px 5px #170c2e;
-    
-    
+    box-shadow: 5px 5px 5px #f1f0ee;
 }
 
+.bouton:hover
+{
+    color: white;
+    box-shadow: 5px 5px 5px #e07511;
+    background-color: #eea45e;
+}
  /* footer */
  .footer{
-     background-color: rgb(31, 29, 29);
+     background-color: rgb(0, 0, 0);
         /* background-image: linear-gradient(rgb(13, 4, 37), rgb(61, 38, 4)); */
         color: rgb(255, 255, 255);
         padding: 10px;
@@ -350,7 +382,7 @@ body {
     }
 
     .btn-couleur{
-        background-color: rgb(47, 91, 172);
+        
         float: right;
         margin-right: -140px;
        
@@ -363,17 +395,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg);
+    background-color: white;
     background-position: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 50px;
 }
 
-.div1
+.div1 
 {
-    background: rgb(255, 255, 255,0.5);
-    box-shadow: 0 5px 10px rgba(255, 255, 255,0.5);
+    background: rgba(236, 232, 232, 0.5);
+    box-shadow: 0 5px 10px rgb(13, 4, 37);
     border-radius: 20px;
     padding: 20px;
     height: 300px;
@@ -399,13 +431,66 @@ body {
 
 .inmen
 {
-    color: #fd7e14;
+    color: rgb(13, 4, 37);
+    font-size: 18px;
 }
 
 .inmen:hover
 {
     box-shadow:0 5px 10px rgb(13, 4, 37);
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 20px;
+    color:  #fd7e14;
+    background-color: rgb(13, 4, 37);
+}
+
+/* **************close pae versement****************** */
+
+
+/* ********************open page gestion******************** */
+
+
+.gestion
+{
+   margin-top: 100px; 
+}
+
+.gestionP
+{
+    padding:30px 0;
+
+}
+
+.buttonbg
+{
+    background-color: rgb(13, 4, 37);
+    color: #fd7e14;
+}
+
+.buttonbg:hover
+{
+    background-color: #fd7e14;
     color:  rgb(13, 4, 37);
+    font-size: 20px;
+}
+
+.colone:hover
+{
+    background-color: rgb(13, 4, 37);
+    color: #fd7e14;
+    font-size: 20px;
+
+}
+
+.photoct
+{
+    max-width: 100%;
+    max-height:100%;
+    background-size: cover;
+    
+}
+
+.start
+{
+    color:red;
 }

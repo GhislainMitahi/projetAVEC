@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <htlm>
-    <head>
-        <title></title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/avecstyle.css">
-        <link rel="stylesheet" href="css/all.min.css">
-    </head>
+    <?php include("head.php")?>
             <body>
                 <header>
                    <?php include("menu.php")?>
@@ -16,38 +10,97 @@
 
 
 
-
-                <table class="table">
-  <caption>List of users</caption>
+<div class="container-fluid gestion">
+<h1 class="text-center bgcolor">Gestion</h1>
+<p class="text-center gestionP">Information sur chaque membre de l'association</p>
+  <table class="table">
+  <caption>Dans cette table il n'y a que les informartions essentielles à connaitre.</caption>
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">N.ord</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Montant déjà payé</th>
+      <th scope="col">Dettes</th>
+      <th scope="col">Delais de payement</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="colone">
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
     </tr>
-    <tr>
+    <tr class="colone">
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
     </tr>
-    <tr>
+    <tr class="colone">
       <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">4</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">5</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">6</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">7</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">8</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
+    </tr>
+    <tr class="colone">
+      <th scope="row">9</th>
+      <td>Ghislain ghislain ghislain</td>
+      <td>50 USD</td>
+      <td>10 USD</td>
+      <td>1mois</td>
+      <td><span class="btn buttonbg">Plus</span></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 
              

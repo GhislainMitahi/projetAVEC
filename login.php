@@ -4,26 +4,26 @@
                 <form>
                   
                   <div class="form-group row">
-                    <label for="inputpostnom" class="col-sm-2 col-form-label">Nom*</label>
+                    <label for="inputpostnom" class="col-sm-2 col-form-label">Nom <span class="start">*</span> </label>
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputPassword3">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inputdate" class="col-sm-2 col-form-label">Date de naissance*</label>
+                    <label for="inputdate" class="col-sm-2 col-form-label">Date de naissance<span class="start">*</span></label>
                     <div class="col-sm-10">
                       <input type="date" class="form-control" id="inputPassword3">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email*</label>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email<span class="start">*</span></label>
                     <div class="col-sm-10">
                       <input type="email" class="form-control" id="inputEmail3">
                     </div>
                   </div>
 
                   <div class="form-group row">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">Montant(USD ou CFD)*</label>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Montant(USD ou CFD)<span class="start">*</span></label>
                                 <div class="form-group col-md-4">
                                 <input type="email" class="form-control" id="inputEmail4">
                                 </div><label for="inputPassword4">Tranche</label>
@@ -34,7 +34,7 @@
                         </div>
                         
                   <fieldset class="form-group row">
-                    <legend class="col-form-label col-sm-2 float-sm-left pt-0">Sexe*</legend>
+                    <legend class="col-form-label col-sm-2 float-sm-left pt-0">Sexe<span class="start">*</span></legend>
                     <div class="col-sm-10">
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>

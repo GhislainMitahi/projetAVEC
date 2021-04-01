@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <htlm>
-    <head>
-        <title></title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/avecstyle.css">
-        <link rel="stylesheet" href="css/all.min.css">
-    </head>
+<?php include("head.php")?>
   <body>
         <header>
         <?php include('menu.php')?>
@@ -28,7 +22,7 @@
             <div class="container labele1">
             <small class="text-muted">12 sur 12</small>
                 <div class="progress ">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: red">100%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
                 </div>
             </div>
             <!-- close labels -->
@@ -104,9 +98,9 @@
                 <hr class="ligne">
                 <p style="padding:10px" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
                 </p>
-                <span class="font-weight-bold text-center">+ d'infos</span>
+                <a href="apropos.php" ><span class="font-weight-bold  text-decoration-none infoplus">+ d'infos</span></a>
               </div>
-              <div class="col-6" ><img src="images/bb11.jpeg"  class="photoAp" alt="">
+              <div class="col-6" ><img src="images/bb11.jpeg" class="photoAp" alt="">
             </div>
           </div>
         </div>
