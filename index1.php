@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <htlm>
-<?php include("head.php")?>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/avecstyle.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
   <body>
         <header>
         <?php include('menu.php')?>
@@ -22,7 +28,7 @@
             <div class="container labele1">
             <small class="text-muted">12 sur 12</small>
                 <div class="progress ">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: red">100%</div>
                 </div>
             </div>
             <!-- close labels -->
@@ -69,42 +75,61 @@
             </nav> <!-- close nos leaders-->
             </div>
             <!-- Apropos de l'entreprises  -->
-
-            <div class="row date2">
-                    <div class="col-6 col-md-3 col-lg-3 text-center">
-                          <p class="begyear">1996</p>
-                          <label>Année de création</label>
-                      </div>
-
-                      <div class="col-6 col-md-3 col-lg-3 text-center"> 
-                        <p class="pbegyear"><?php echo "" .date('d');?></p>
+          
+                <style>
+                .date2{
+                     background:#fd7e14; 
+                    margin:20px;
+                    padding:15px;
+                    color:white;
+                               
+                  }
+             .date2 p{
+                    font-size: 1.6em;
+                    font-weight: bold;   
+                    margin:5px;                                     
+                  }
+                   .date2 span {
+                      
+                    font-size:0.2em;
+                                        
+                  }
+                </style>
+                   <div class="row date2">
+                   <div class="col-6 col-md-3 col-lg-3  text-center">
+                         <p class="begyear">1996</p>
+                        <label>Année de création</label>
+                    </div>
+                     <div class="col-6 col-md-3 col-lg-3  text-center">
+                        <p class="begyear"><?php echo "" .date('d');?></p>
                         <label>Aujourd'hui</label>
-                      </div>
-
-                      <div class="col-6 col-md-3 col-lg-3 text-center">
+                     </div>
+                    
+                        <div class="col-6 col-md-3 col-lg-3  text-center">
 
                         <p class="begyear"><?php echo "" .date('m');?></p>
                         <label>Actuel mois</label>
                       </div>
+                   <div class="col-6 col-md-3 col-lg-3  text-center">
 
-                      <div class="col-6 col-md-3 col-lg-3 text-center">
                         <p class="begyear"><?php echo "" .date('y');?></p>
                         <label>Actuelle Année</label>
                       </div>
                   </div>
-                
-          
+              
+         
             <div class=" mainApropos shadow p-1 mb-0 rounded">
               <div class="row">
-              <div class="col-12 col-md-6 text-center">
+                   <div class="col-12 col-md-6 col-lg-6 text-center">
                 <h5 class="text-center h1 p-1">A propos</h5>
                 <hr class="ligne">
                 <p style="padding:10px" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
                 </p>
-                <a href="apropos.php" ><span class="font-weight-bold text-center infoplus">+ d'infos</span></a>
+                <span class="font-weight-bold text-center">+ d'infos</span>
               </div>
-              <div class="col-12 col-md-6" >
-                     <img src="images/bb11.jpeg" class="photoAp" alt="">
+                   <div class="col-12 col-md-6 col-lg-6">
+
+              <img src="images/bb11.jpeg"  class="photoAp" alt="">
             </div>
           </div>
         </div>
@@ -214,9 +239,9 @@
                 </div>
               </div>
             <p class="text-center"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></p>
-              <div class="px-lg-5 shadow mb-0 bg-white rounded">
+              <div class="container-fluid px-lg-5 shadow  mb-1 bg-white rounded">
                   <div class="row mx-lg-n5">
-                    <div class="col-12 col-md-6 col-lg-6 py-3 px-lg-5  ">
+                    <div class="col py-3 px-lg-5  ">
                         <div id="carouselExampleCaptions" class="carousel slide imgcarousel maincarousel" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -256,10 +281,11 @@
                       </a>
                     </div>
                   </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                              <div class="card mb-3 shadow p-0 carte ">
+                    <div class="col py-3 px-lg-5 ">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+                              <div class="card carte containere-fluid mb-3 shadow p-0 carte">
                                 <div class="card-header header-card text-center">Guide</div>
-                                <div class="card-body body-card text-center">
+                                <div class="card-body body-card ">
                                   <h6 class="card-title "> Pour plus d'orientation consulter ces titres</h6>
                                   <div class="card-text text-lowercase sousTitre">
                                     <i class="fas fa-angle-right" style="color: #ff922b;"></i> <h8>S'inscrire</h8><br>
@@ -274,15 +300,15 @@
                         </div>
                       </div>
                     </div>
-             
-                <div class=" text-center front_footer">
+                  </div>         
+                <div class="contenaire-fluid text-center front_footer">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6 ">
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                       <p class="texte"><strong>AVEC</strong> est à votre niveau <br> 
                       Faites vos epargnes tout les jours<br>à chaque heure vous gagnerai plus </p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 pbouton">
-                      <button type="button" class="btn btn-warnings bouton"> En savoir</button>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <button type="button" class="btn btn-warnings btn-lg bouton bgcolor"> En savoir</button>
                     </div>
                   </div>
                 </div>

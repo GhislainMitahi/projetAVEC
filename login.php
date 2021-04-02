@@ -50,13 +50,11 @@
                       </div>
                     </div>
                   </fieldset>
-                  <div class="form-group row">
-                    <div class="col-sm-10">
-                        
-                      <button type="submit" class="btn btn-couleur bgcolor">Enregistrer</button>
-                    </div>
-                  </div>
-                  
+                  <div class="p-5 logbtn">
+                    
+                      <button type="submit" class="btn btn-couleur text-center bgcolor">Enregistrer</button>
+                    
+                     </div>
                </form>
               </div>
               </div>
