@@ -97,7 +97,7 @@
             <div class=" mainApropos shadow p-1 mb-0 rounded">
               <div class="row">
               <div class="col-12 col-md-6 text-center">
-                <h5 class="text-center h1 p-1">A propos</h5>
+                <h5 class="text-center h1 p-1">Un mot sur nous</h5>
                 <hr class="ligne">
                 <p style="padding:10px" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
                 </p>
@@ -213,7 +213,7 @@
                   </div>
                 </div>
               </div>
-            <p class="text-center"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></p>
+            <p class="text-center"><a href="membres.php"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></a></p>
               <div class="px-lg-5 shadow mb-0 bg-white rounded">
                   <div class="row mx-lg-n5">
                     <div class="col-12 col-md-6 col-lg-6 py-3 px-lg-5  ">

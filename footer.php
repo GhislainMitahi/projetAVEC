@@ -31,7 +31,7 @@
             </nav>
             <aside class="container-fluid">
               <hr class="ligne_in_footer">
-              <p class="laster"><a href=""><i class="fas fa-phone-alt"></i>  contact our softward ingenier</a></p>
+              <p class="text-center"><a href="" class="text-white"><i class="fas fa-phone-alt"></i>  contact our  software ingenier</a></p>
             </aside>
           </div> 
           </footer>

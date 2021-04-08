@@ -1,6 +1,12 @@
+
+
+       
 <!DOCTYPE html>
 <htlm>
 <?php include("head.php")?>
+<?php 
+      $code==10;
+       if($code==10){?>
           <body>
                 <header>
                    <?php include("menu.php")?>
@@ -11,3 +17,4 @@
           <script src="js/bootstrap.min.js"></script>
    </body>
 </html>
+<?php}
