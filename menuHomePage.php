@@ -6,20 +6,15 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link text-light" href="versement.php">Versement<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="membres.php">Membres & Cas sossial</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="gestion.php">Gestion</a>
-      </li>
+     
       <li class="nav-item">
         <a class="nav-link text-light" href="apropos.php" >Apropos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="inscrire.php">Inscription</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link text-light" href="inscrire.php">Connexion</a>
       </li>
     </ul>
   </div>

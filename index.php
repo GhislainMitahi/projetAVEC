@@ -68,7 +68,7 @@
                 </div>
               </div>
             </nav> <!-- close nos leaders-->
-            </div>
+           
             <!-- Apropos de l'entreprises  -->
 
             <div class="row date2">
@@ -115,9 +115,10 @@
           <p>Ne manquez aucune actualité à propos de la société AVEC en aimant notre page Facebook!</p>
           <i class="fab fa-facebook fa-5x bgcolorfb"> <a href="gestion.php"></a></i>
       </div>
+      <div>
           <h1 class="text-center titremembre">Membres </h1>
           <hr class="ligne">
-          <div class="">
+       
             <div class="row">
               <div class="col-md-4">
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
@@ -214,8 +215,9 @@
                   </div>
                 </div>
               </div>
+
             <p class="text-center"><a href="membres.php"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></a></p>
-              <div class="px-lg-5 shadow mb-0 bg-white rounded">
+              <!-- <div class="px-lg-5 shadow mb-0 bg-white rounded"> -->
                   <div class="row mx-lg-n5">
                     <div class="col-12 col-md-6 col-lg-6 py-3 px-lg-5  ">
                         <div id="carouselExampleCaptions" class="carousel slide imgcarousel maincarousel" data-ride="carousel">
@@ -287,12 +289,12 @@
                     </div>
                   </div>
                 </div>
-                </div>
+            
 
                 <?php include('footer.php')?>
                   </section>
                 <script src="js/jquery.js"></script>
                 <script src="js/bootstrap.min.js"></script>
-                
+                   </div>
             </body>
-        </htlm>
+</htlm>
