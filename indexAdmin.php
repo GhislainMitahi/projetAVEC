@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="labele1">
-            <small class="text-muted">12 sur 12</small>
+    <small class="text-muted">12 sur 12</small>
                 <div class="progress ">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
                 </div>

@@ -3,8 +3,9 @@
 <?php include("head.php")?>
   <body>
         <header>
-        <?php include('menu.php')?>
+        <?php include('menuHomepage.php')?>
         </header><!--menu close -->
+        <div class="container-fluid">
           <section>
             <div id="imgAvec">
               <h1>-AVEC-</h1>
@@ -13,20 +14,20 @@
             </div>
             <!-- open labels pour l'evolution de l'annee  -->
             <h4 class="text-center annee">Niveau Annenuel</h4>
-            <div class="container labele0">
-            <small class="text-muted"><?php echo'Nous sommes au mois de '.date('m').' sur 12';?></small>
+            <div class="labele0">
+           <small class="text-muted"><?php echo'Nous sommes au mois de '.date('m').' sur 12';?></small>
               <div class="progress"> 
                 <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: orange">33.3%</div>
               </div>
             </div>
-            <div class="container labele1">
+            <div class="abele1">
             <small class="text-muted">12 sur 12</small>
                 <div class="progress ">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
                 </div>
             </div>
             <!-- close labels -->
-            <nav class="presentation container">
+            <nav class="presentation">
                <h4 class="titrepresentation">Nos leaders</h4>
                <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -107,7 +108,7 @@
                      <img src="images/bb11.jpeg" class="photoAp" alt="">
             </div>
           </div>
-        </div>
+      
         <div id="actualite" class="text-center col">
           <h1>Actualite</h1>
           <hr class="ligne">
@@ -116,7 +117,7 @@
       </div>
           <h1 class="text-center titremembre">Membres </h1>
           <hr class="ligne">
-          <div class="container-fluid">
+          <div class="">
             <div class="row">
               <div class="col-md-4">
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
@@ -163,9 +164,9 @@
                       </div>
                     </div>
                   </div>
-                <hr class=" container ligne1">
+                <hr class="ligne1">
               <!-- close premiere colonne membre-->
-                <div class="container-fluid">
+                <div class="">
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
@@ -286,9 +287,12 @@
                     </div>
                   </div>
                 </div>
+                </div>
+
                 <?php include('footer.php')?>
                   </section>
                 <script src="js/jquery.js"></script>
                 <script src="js/bootstrap.min.js"></script>
+                
             </body>
         </htlm>
