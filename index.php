@@ -14,18 +14,13 @@
             </div>
             <!-- open labels pour l'evolution de l'annee  -->
             <h4 class="text-center annee">Niveau Annenuel</h4>
-            <div class="labele0">
+            <div class="labele0 p-3">
            <small class="text-muted"><?php echo'Nous sommes au mois de '.date('m').' sur 12';?></small>
               <div class="progress"> 
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: orange">33.3%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: orange;">33.3%</div>
               </div>
             </div>
-            <div class="abele1">
-            <small class="text-muted">12 sur 12</small>
-                <div class="progress ">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
-                </div>
-            </div>
+            
             <!-- close labels -->
             <nav class="presentation">
                <h4 class="titrepresentation">Nos leaders</h4>

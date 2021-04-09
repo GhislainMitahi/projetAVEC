@@ -6,7 +6,7 @@
 <?php include("head.php")?>
           <body>
                 <header>
-                <?php include("menuAdmin.php")?>
+                <?php include("menuHomePage.php")?>
                 </header>
                 <?php include("login.php")?>
                 <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 68px;"></div>

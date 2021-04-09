@@ -8,23 +8,16 @@
         </header><!--menu close -->
         
         <div class="container-fluid">
-          <section>
             <!-- open labels pour l'evolution de l'annee  -->
            <div id='toMenu'>
             <h4 class="text-center annee">Niveau Annenuel</h4>
-            <div class="labele0">
+            <div class="labele0 p-2 container-fluid">
             <small class="text-muted"><?php echo'Nous sommes au mois de '.date('m').' sur 12';?></small>
               <div class="progress"> 
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: orange">33.3%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: green">33.3%</div>
               </div>
             </div>
-            <div class="labele1">
-    <small class="text-muted">12 sur 12</small>
-                <div class="progress ">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;background-color: rgb(5, 206, 92)">100%</div>
-                </div>
-            </div>
-            </div>
+                        
 
            
             <!-- Apropos de l'entreprises  -->
@@ -54,7 +47,7 @@
                   <!-- debut tableau    dette  -->
 
                    <div class="container-fluid gestion">
-      <h1 class="text-center bgcolor">Etat actuel </h1>
+      <h1 class="text-center" style="background-color: rgb(13, 4, 37);color: #fd7e14;border-radius: 0 20px 0 20px;font-size:20px">Etat actuel </h1>
       <p class="text-center gestionP">Information sur chaque membre de l'association</p>
        <table class="table">
         <thead>
@@ -110,40 +103,13 @@
             <td>500.000</td>           
             <td><span class="btn buttonbg">Voir plus</span></td>
           </tr>
-         
+
         </tbody>
       </table>
 
-       <!-- <table class="table">
-        <thead>
-          <tr>           
-            <th scope="col"> </th>
-            <th scope="col"></th>  
-            <th scope="col"> </th>   
-
-                  
-
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="colone">
-            <th scope="row">10</th>
-            <td>110</td>           
-            <td><span class="btn buttonbg">Voir plus</span></td>
-          </tr>
-         
-        </tbody>
-      </table> -->
     </div>
     </div>
-
-
-
-<div class="text-center" style="height:40px;background:red; "> <a href="#toMenu">Aller vers l'ancre</a></div>
-  
-            
-                
+<div class="text-center" style="height:40px;background:rgb(13, 4, 37); "> <a href="#toMenu">Aller vers l'ancre</a></div>
                 <script src="js/jquery.js"></script>
                 <script src="js/bootstrap.min.js"></script>
             </body>

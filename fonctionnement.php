@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <htlm>
 <?php include("head.php")?>
-        <?php include("menu.php")?> 
+<?php include("menuAdmin.php")?> 
     </head>
      <?php include("login.php")?>
               <?php include("footer.php") ?>

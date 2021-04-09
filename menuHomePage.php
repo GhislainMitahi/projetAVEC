@@ -11,10 +11,10 @@
         <a class="nav-link text-light" href="apropos.php" >Apropos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="inscrire.php">Inscription</a>
+        <a class="nav-link text-light" href="inscrirehome.php">Inscription</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link text-light" href="inscrire.php">Connexion</a>
+        <a class="nav-link text-light" href="">Connecter</a>
       </li>
     </ul>
   </div>

@@ -3,7 +3,7 @@
 <?php include("head.php")?>
             <body>
             <header>
-              <?php include("menu.php")?>
+            <?php include("menuAdmin.php")?>  
             </header><!--menu close -->
         <section class="maindver">
              <div class=" div1">
@@ -17,7 +17,7 @@
              </div>
         </section>
       
-       <?php include("footer.php") ?>
+        <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 68px;"></div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

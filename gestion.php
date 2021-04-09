@@ -4,14 +4,14 @@
 
   <body>
     <header>
-      <?php include("menu.php") ?>
+    <?php include("menuAdmin.php")?>
     </header>
 
 
 
-
+<div class="bg-light">
     <div class="container-fluid gestion">
-      <h1 class="text-center bgcolor">Gestion</h1>
+      <h1 class="text-center" style="background-color:rgb(13, 4, 37);color:white;border-radius: 0 20px 0 20px;font-size: 20px;">Infos Membres</h1>
       <p class="text-center gestionP">Information sur chaque membre de l'association</p>
       <table class="table">
         <caption>Dans cette table il n'y a que les informartions essentielles à connaitre.</caption>
@@ -101,13 +101,8 @@
         </tbody>
       </table>
     </div>
-
-
-
-
-
-
-    <?php include("footer.php") ?>
+    </div>
+<div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 50px;"></div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

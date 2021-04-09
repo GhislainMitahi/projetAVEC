@@ -3,10 +3,9 @@
 <?php include("head.php")?>
           <body>
                 <header>
-                   <?php include("menu.php")?>
+                <?php include("menuAdmin.php")?>
                 </header>
                 <?php include("login.php")?>
-              <?php include("footer.php") ?>
           <script src="js/jquery.js"></script>
           <script src="js/bootstrap.min.js"></script>
    </body>

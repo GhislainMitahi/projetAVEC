@@ -3,7 +3,7 @@
  <?php include("head.php")?>
             <body>
                 <header>
-                        <?php include("menu.php")?>
+                        <?php include("menuHomePage.php")?>
                 </header><!--menu close -->
                     
                     </div>
