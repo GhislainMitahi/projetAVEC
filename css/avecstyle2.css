@@ -17,7 +17,7 @@ body {
 }
 
 #imgAvec {
-    background-image: url(https://images.pexels.com/photos/4240576/pexels-photo-4240576.jpeg?cs=srgb&dl=pexels-ivan-samkov-4240576.jpg&fm=jpg);
+    background-image: url(https://image.shutterstock.com/image-photo/group-casually-dressed-african-colleagues-600w-642460960.jpg);
     height: 80vh;
     background-position: center;
     background-size: cover;
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(13, 4, 37);
 }
 
 #imgAvec h1 {
@@ -38,7 +38,7 @@ body {
 }
 
 .annee {
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 .labele0 {
@@ -273,17 +273,17 @@ body {
 
 .texte {
     margin-top: 70px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-style: oblique 20deg;
 }
 
 .bouton {
     /* margin-top: 125px; */
     margin-left: -50px;
-    margin-top: 20px;
-    height: 70px;
-    width: 210px;
-    box-shadow: 3px 3px 3px #f1f0ee;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 2px 2px 2px #f1f0ee;
     border-radius: 0 20px 0 20px;
     font-size: 1.3rem;
 }
@@ -296,7 +296,7 @@ body {
 
 .bouton:hover {
     color: white;
-    box-shadow: 3px 3px 3px #e07511;
+    box-shadow: 2px 2px 2px #e07511;
     background-color: #ee8829;
 }
 
@@ -390,6 +390,52 @@ body {
     text-decoration: 0;
 }
 
+#formulaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#formulaire .valide {
+    margin-top: 20px;
+    background-color: rgb(13, 4, 37);
+    color: #fd7e14;
+    border-color: rgb(13, 4, 37);
+}
+
+#formulaire .valide:hover {
+    border-color: #fd7e14;
+    color: #fff
+}
+
+#formulaire input {
+    border-radius: 5px;
+}
+
+#formulaire input:hover {
+    border-color: #fd7e14;
+}
+
+.erreur {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: #fd7e14;
+    margin: 250px;
+    border-radius: 10px;
+    box-shadow: 0;
+    box-shadow: 2px 2px 2px #88827c;
+}
+
+.erreur p {
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: rgb(13, 4, 37);
+}
+
 .versmenu {
     margin-top: 50px;
 }
@@ -426,6 +472,10 @@ body {
     padding: 30px 0;
 }
 
+.etat {
+    margin-top: 20px;
+}
+
 .buttonbg {
     background-color: #fd7e14;
     color: rgb(13, 4, 37);
@@ -450,4 +500,18 @@ body {
 
 .start {
     color: red;
+}
+
+.bg-dark a {
+    transition: 0.2s;
+    color: white;
+}
+
+.bg-dark a:hover {
+    transition: 0.5s;
+    color: #ff922b;
+}
+
+.bg-dark a:active {
+    font-weight: bold;
 }

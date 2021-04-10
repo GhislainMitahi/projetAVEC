@@ -3,15 +3,15 @@
 <?php include("head.php")?>
             <body>
             <header>
-                    <?php include("menu.php")?>
+                    <?php include("menuAdmin.php")?>
                 </header>
                    <div class="container">
                      <form style="padding-top:100px">
                             <h4 style="text-align:center;margin-bottom:30px">Mon Profil</h4>
                         <div class="form-group row">
-                            <label for="inputnom" class="col-sm-2 col-form-label">RECHERCHE*</label>
+                            <label for="inputnom" class="col-sm-2 col-form-label">RECHERCHE</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputPassword3" value="trouvez le menbre ici">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="ecrivez le nom que vous souhaitez trouver  ici">
                         </div>
                       </div>
                     </div>
@@ -37,62 +37,30 @@
     </div>
   </div>
 </div>
-
-
     </div>
     <div class="col py-4 px-lg-5 bg-white">
       
 
     <div class="col-md-12">    
-        <div class="form-group">
-            <label for="inputAddress">Nom</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Nom complet">
-        </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4"> Tranche</label>
-              <input type="text" class="form-control" id="inputEmail4">
+              <input type="number" class="form-control" id="inputEmail4">
           </div>
                 <div class="form-group col-md-6">
                 <label for="inputAddress">Montant</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="USD ou CDF">
+                <input type="number" class="form-control" id="inputAddress" placeholder="USD ou CDF">
             </div>
         </div>
         <button type="submit" class="btn bgcolor" style="float:right;">Enregistrer</button>
         </div>
   </div>
-  </div>
+</div>
 </div>
                         
        
-        <?php include("footer.php")?>
+<div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 60px;margin-top: 140px;margin-bottom: 0px"></div>    
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-<!-- <div class="col-md-6">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                                </div>
-                                <div class="form-group col-md-6">
-                                <label for="inputPassword4">Password</label>
-                                <input type="text" class="form-control" id="inputPassword4">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enregistrer</button>
-                        </div>
-                    </div>
-                </div>
-            </div> -->

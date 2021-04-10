@@ -10,9 +10,9 @@
                 <h4 class="text-center titremembre">Liste de Membres </h4>
                <hr class="ligne">
                 <div class="form-group row" style="margin-top:50px">
-                    <label for="inputnom" class="col-sm-2 col-form-label">RECHERCHE*</label>
+                    <label for="inputnom" class="col-sm-2 col-form-label">RECHERCHE</label>
                     <div class="col-sm-10" style="margin-bottom:30px">
-                      <input type="text" class="form-control" id="inputPassword3" value="trouvez le menbre ici">
+                      <input type="text" class="form-control" id="inputPassword3" placeholder="ecrivez le nom que vous souhaitez trouver  ici">
                     </div>
                    </div>
                   </div>
@@ -25,12 +25,12 @@
                     <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                        <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/bro.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Fred TAYLOR</h5>
+                          <p class="card-text">Secrétaire Général <br> et charger de suivie</p>
                         </div>
                       </div>
                     </div>
@@ -43,8 +43,8 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Enock MITAHI</h5>
+                                        <p class="card-text">Directeur Général et charger de suivie </p>
                           </div>
                         </div>
                       </div>
@@ -58,8 +58,8 @@
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                              <h5 class="text-decoration">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="text-decoration">Tatiana TASI</h5>
+                                        <p class="card-text">Charger de resource humaine</p>
                           </div>
                         </div>
                       </div>
@@ -77,8 +77,8 @@
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below </p>
+                        <h5 class="card-title">Yannick NINGA</h5>
+                                        <p class="card-text">Tresorier</p>
                         </div>
                       </div>
                     </div>
@@ -107,8 +107,9 @@
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                              <h5 class="text-decoration">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Rossette SHABANI</h5>
+                                        <p class="card-text">Charger de comminication</p>
+                                    </div>
                           </div>
                         </div>
                       </div>
@@ -140,8 +141,8 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Rossette SHABANI</h5>
+                                        <p class="card-text">Charger de comminication</p>
                           </div>
                         </div>
                       </div>
@@ -155,8 +156,8 @@
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                              <h5 class="text-decoration">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Rossette SHABANI</h5>
+                                        <p class="card-text">Charger de comminication</p>
                           </div>
                         </div>
                       </div>
@@ -173,8 +174,8 @@
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Ghislain MITAHI</h5>
+                          <p class="card-text">Membre simple </p>
                         </div>
                       </div>
                     </div>
@@ -188,8 +189,8 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                            <h5 class="card-title">Jack JACK</h5>
+                            <p class="card-text">Membre simple </p>
                           </div>
                         </div>
                       </div>
@@ -203,8 +204,8 @@
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                              <h5 class="text-decoration">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                              <h5 class="text-decoration">Yannick YANNICK</h5>
+                            <p class="card-text">Membre simple </p>
                           </div>
                         </div>
                       </div>
@@ -221,8 +222,8 @@
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below </p>
+                          <h5 class="card-title">Dan DANNIEL</h5>
+                          <p class="card-text">Membre simple </p>
                         </div>
                       </div>
                     </div>
@@ -236,8 +237,8 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                            <h5 class="card-title">Blaise BLAISE</h5>
+                            <p class="card-text">Membre simple </p>
                           </div>
                         </div>
                       </div>
@@ -251,8 +252,8 @@
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                              <h5 class="text-decoration">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                              <h5 class="text-decoration">Gracieux GRACIEUX</h5>
+                            <p class="card-text">Membre simple </p>
                           </div>
                         </div>
                       </div>

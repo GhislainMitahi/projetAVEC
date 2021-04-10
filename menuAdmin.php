@@ -20,7 +20,7 @@
         <a class="nav-link text-light" href="inscrire.php">Inscription</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="help.php">Deconnecter</a>
+        <a class="nav-link text-light" href="main_index.php">Deconnecter</a>
       </li>
     </ul>
   </div>

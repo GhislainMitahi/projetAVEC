@@ -11,7 +11,7 @@
 
 <div class="bg-light">
     <div class="container-fluid gestion">
-      <h1 class="text-center" style="background-color:rgb(13, 4, 37);color:white;border-radius: 0 20px 0 20px;font-size: 20px;">Infos Membres</h1>
+      <h1 class="text-center" style="background-color:rgb(13, 4, 37);color:white;border-radius: 0 20px 0 20px;font-size: 20px;margin: top 100px;">Infos Membres</h1>
       <p class="text-center gestionP">Information sur chaque membre de l'association</p>
       <table class="table">
         <caption>Dans cette table il n'y a que les informartions essentielles à connaitre.</caption>
@@ -32,7 +32,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">2</th>
@@ -40,7 +40,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">3</th>
@@ -48,7 +48,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">4</th>
@@ -56,7 +56,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">5</th>
@@ -64,7 +64,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">6</th>
@@ -72,7 +72,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">7</th>
@@ -80,7 +80,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">8</th>
@@ -88,7 +88,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">9</th>
@@ -96,7 +96,7 @@
             <td>50 USD</td>
             <td>10 USD</td>
             <td>1mois</td>
-            <td><span class="btn buttonbg">Plus</span></td>
+            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
         </tbody>
       </table>

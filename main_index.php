@@ -6,8 +6,7 @@
     </header>
 
     <body>
-        <div class="container-fluid">µ
-            <!-- image hero -->
+        <div class="container-fluid">
             <div id="imgAvec">
                 <h1>-AVEC-</h1>
                 <P>Lorem ipsum dolor sit amet consectetur,
@@ -19,7 +18,7 @@
                 <div class="labele0">
                     <small class="text-muted"><?php echo 'Nous sommes au mois de ' . date('m') . ' sur 12'; ?></small>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: orange">33.3%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;background-color: green">33.3%</div>
                     </div>
                 </div>
             </div>
@@ -54,8 +53,11 @@
                     <div class="col-12 col-md-6 text-center">
                         <h5 class="text-center h1 p-1">Un mot sur nous</h5>
                         <hr class="ligne">
-                        <p style="padding:10px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur aut corporis autem! Fugit nihil, laboriosam nisi nesciunt culpa aspernatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
-                        </p>
+                    <p style="padding:10px">AVEC est une association qui nous permet de gèrer nos argants d'une façon harmonieuse
+                                                .cette association mette les avantages à tout ses membres équitablement et sans discrimination.
+                                                Nous facilitons l'epargne à tous peu ton temps d'adesion.celle ci 
+                                                ne vise pas le rang social,plutot c'est à l'interet de tous.
+                                Nous veillons et nous nous inquiètons de nos membres dans les beaux et mauvais jours.</p>
                         <a href="apropos.php"><span class="font-weight-bold text-center infoplus">+ d'infos</span></a>
                     </div>
                     <div class="col-12 col-md-6">
@@ -77,12 +79,12 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/bro.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                        <h5 class="card-title">Fred TAYLOR</h5>
+                                        <p class="card-text">Secrétaire Général <br> et charger de suivie</p>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +98,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                        <h5 class="card-title">Enock MITAHI</h5>
+                                        <p class="card-text">Directeur Général et charger de suivie </p>
                                     </div>
                                 </div>
                             </div>
@@ -111,8 +113,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="text-decoration">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                        <h5 class="text-decoration">Tatiana TASI</h5>
+                                        <p class="card-text">Charger de resource humaine</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,8 +133,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                        <h5 class="card-title">Yannick NINGA</h5>
+                                        <p class="card-text">Tresorier</p>
                                     </div>
                                 </div>
                             </div>
@@ -146,8 +148,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                        <h5 class="card-title">Rossette SHABANI</h5>
+                                        <p class="card-text">Charger de comminication</p>
                                     </div>
                                 </div>
                             </div>
@@ -161,8 +163,9 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below </p>
+                                    <h5 class="card-title">Rossette SHABANI</h5>
+                                        <p class="card-text">Charger de comminication</p>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
