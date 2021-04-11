@@ -61,7 +61,7 @@
                         <a href="apropos.php"><span class="font-weight-bold text-center infoplus">+ d'infos</span></a>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img src="images/bb11.jpeg" class="photoAp" alt="">
+                        <img src="css/2a.jpg" class="photoAp" alt="">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                 <h1>Actualite</h1>
                 <hr class="ligne">
                 <p>Ne manquez aucune actualité à propos de la société AVEC en aimant notre page Facebook!</p>
-                <i class="fab fa-facebook fa-5x bgcolorfb"> <a href="gestion.php"></a></i>
+                <a href="versement.php" class="text-white"><i class="fab fa-facebook fa-5x bgcolorfb"></i></a>
             </div>
             <div>
                 <h1 class="text-center titremembre">Membres </h1>
@@ -79,11 +79,11 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/bro.jpg" alt="...">
+                                    <img class="photo" src="images/mam.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Fred TAYLOR</h5>
+                                        <h5 class="card-title">Aimerance AIMERANCE</h5>
                                         <p class="card-text">Secrétaire Général <br> et charger de suivie</p>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/edison.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -109,7 +109,7 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/taty.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -122,14 +122,12 @@
                     </div>
                     <hr class="ligne1">
                 </div>
-                <!-- membres after <hr/> -->
-
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/edison.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -144,7 +142,7 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/maman.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -159,11 +157,11 @@
                         <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img class="photo" src="images/coolman.jpg" alt="...">
+                                    <img class="photo" src="images/mam.jpg" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                    <h5 class="card-title">Rossette SHABANI</h5>
+                                    <h5 class="card-title">Sakina TASI</h5>
                                         <p class="card-text">Charger de comminication</p>
                                     </div>
                                     </div>
@@ -174,7 +172,7 @@
                 </div>
             </div>
 
-            <p class="text-center"><a href="membres.php"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></a></p>
+            <p class="text-center"><a href="versement.php"><i class="fas fa-angle-down fa-5x p-3 bgcolor shadow-lg mb-5"></i></a></p>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div id="carouselExampleCaptions" class="carousel slide imgcarousel maincarousel" data-ride="carousel">
@@ -185,17 +183,17 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="images/bb11.jpeg" class="d-block w-100" alt="...">
+                                <img src="images/2a.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5 class="couleurr">First slide label</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/pc.jpg" class="d-block w-100" alt="...">
+                                <img src="images/note.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <h5 >Tu as ton tour</h5>
+                                    <p>Rien que des surprise chez nous,il ya aussi ta place.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -241,15 +239,14 @@
                         <p class="texte"><strong>AVEC</strong> est à votre niveau <br>
                             Faites vos epargnes tout les jours<br>à chaque heure vous gagnerai plus </p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 pbouton">
-                        <button type="button" class="btn btn-warnings bouton"> En savoir</button>
+                    <div class="col-12 col-md-6 col-lg-6 pbouton margi">
+                        <a class="btn btn-warnings bouton" style="margin-top:3px" href="apropos.php"> En savoir</a>
                     </div>
                 </div>
             </div>
 
-            <?php include('footer.php') ?>
+            <?php include('footer.php')?>
         </div>
-        <!-- Include Js -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>

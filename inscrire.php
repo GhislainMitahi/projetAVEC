@@ -9,10 +9,9 @@
                 <?php include("menuAdmin.php")?>
                 </header>
                 <div class="login">
-                <h4 class="titleinscrir">ENTER DANS CE FORMULAIRE LES IDENTITES CORRECTES</h4>
+                <h4 class="titleinscrir">ENTER DANS CE FORMULAIRE LES IDENTITES CORRECTES DU MEMBRE</h4>
                 <div class="container">
                 <form>
-                  
                   <div class="form-group row">
                     <label for="inputpostnom" class="col-sm-2 col-form-label">Nom <span class="start">*</span> </label>
                     <div class="col-sm-10">
@@ -32,13 +31,13 @@
                     </div>
                   </div> 
                   <div class="p-5 logbtn">
-                      <button type="submit" class="btn btn-couleur text-center bgcolor">Enregistrer</button>
+                      <a type="submit" href="versement.php" class="btn btn-couleur text-center bgcolor">Enregistrer</a>
                     
                      </div>
                </form>
               </div>
               </div>
-                <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 156px;"></div>
+                <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 199px;"></div>
           <script src="js/jquery.js"></script>
           <script src="js/bootstrap.min.js"></script>
    </body>

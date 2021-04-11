@@ -7,10 +7,19 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link text-light" href="versement.php">Versement<span class="sr-only">(current)</span></a>
+        <div class="dropdown">
+  <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Versement
+  </button>
+  <div class="dropdown-menu lign2" aria-labelledby="dropdownMenu2">
+    <span class="dropdown-item lign3" ><a class="lign1" href="contributionmensuelle.php">Contribution Mensuelle</a></span>
+    <span class="dropdown-item lign3" ><a class="lign1" href="cassocial.php">Cas sociaux</a></span>
+    <span class="dropdown-item lign3" ><a class="lign1" href="fonctionnement.php">Fonctionnement</a></span>
+  </div>
+</div>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="membres.php">Membres & Cas sossial</a>
+        <a class="nav-link text-light" href="membres.php">Membres</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="gestion.php">Gestion</a>

@@ -25,11 +25,11 @@
                     <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                        <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/bro.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/mam.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Fred TAYLOR</h5>
+                          <h5 class="card-title">Sakina TASI</h5>
                           <p class="card-text">Secrétaire Général <br> et charger de suivie</p>
                         </div>
                       </div>
@@ -39,7 +39,7 @@
               <div class="col-md-4"> 
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
-                        <div class="col-md-4"><a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <div class="col-md-4"><a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -54,7 +54,7 @@
                   <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                      <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/taty.jpg" alt="..."></a>
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -73,7 +73,7 @@
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                      <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                      <a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -88,12 +88,12 @@
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/2.jpg" alt="..."></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below </p>
+                            <h5 class="card-title">Fred TASI</h5>
+                            <p class="card-text">Membre simple</p>
                           </div>
                         </div>
                       </div>
@@ -103,7 +103,7 @@
                   <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                      <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/maman.jpg" alt="..."></a>
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -122,11 +122,11 @@
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                      <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                      <a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Grace GRACE</h5>
                           <p class="card-text">This is a wider card with supporting text below </p>
                         </div>
                       </div>
@@ -137,7 +137,7 @@
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/mam.jpg" alt="..."></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -152,7 +152,7 @@
                   <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                      <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/maman.jpg" alt="..."></a>
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -170,7 +170,7 @@
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                      <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                      <a href="comptes.php"><img class="photo"src="images/2.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -185,7 +185,7 @@
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -200,7 +200,7 @@
                   <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                      <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/2.jpg" alt="..."></a>
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -218,7 +218,7 @@
                <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                      <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                      <a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -233,7 +233,7 @@
               <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                       <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/2.jpg" alt="..."></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -248,7 +248,7 @@
                   <div class="card mb-3 shadow-sm p-0 mb-5 bg-white rounded">
                      <div class="row no-gutters">
                         <div class="col-md-4">
-                        <a href="comptes.php"><img class="photo"src="images/coolman.jpg" alt="..."></a>
+                        <a href="comptes.php"><img class="photo"src="images/edison.jpg" alt="..."></a>
                          </div>
                         <div class="col-md-8">
                           <div class="card-body">

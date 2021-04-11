@@ -52,7 +52,7 @@
                 <input type="number" class="form-control" id="inputAddress" placeholder="USD ou CDF">
             </div>
         </div>
-        <button type="submit" class="btn bgcolor" style="float:right;">Enregistrer</button>
+        <a type="submit" href="versement.php" class="btn bgcolor" style="float:right;">Enregistrer</a>
         </div>
   </div>
 </div>

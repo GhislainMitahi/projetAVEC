@@ -1,5 +1,5 @@
 <div class="login">
-                <h4 class="titleinscrir">ENTER DANS CE FORMULAIRE LES IDENTITES CORRECTES</h4>
+                <p class="titleinscrir2 ">Entrez les informations correctes dans ces champ de formulaire</p>
                 <div class="container">
                 <form>
                   
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                   <div class="p-5 logbtn">
-                      <button type="submit" class="btn btn-couleur text-center bgcolor">Enregistrer</button>
+                      <a href="versement.php" class="btn btn-couleur text-center bgcolor">Enregistrer</a>
                     
                      </div>
                </form>

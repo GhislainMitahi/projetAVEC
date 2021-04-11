@@ -11,6 +11,7 @@
                 <div class="login">
                 <h4 class="titleinscrir">ENTER DANS CE FORMULAIRE LES IDENTITES CORRECTES</h4>
                 <div class="container">
+                <p class="text-center centre">Vous allez recevoir un message de confirmation pour l'inscription dans votre<strong> mail </strong> <br> ou sur votre <strong> numero de telephone </strong>mensionne dans ce formulaire</p>
                 <form>
                   
                   <div class="form-group row">
@@ -49,7 +50,8 @@
                </form>
               </div>
               </div>
-                <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 68px;"></div>
+              <?php include('footer.php')?>
+                <!-- <div class="container-fluid" style="background-color:rgb(13, 4, 37);height: 129px;"></div> -->
           <script src="js/jquery.js"></script>
           <script src="js/bootstrap.min.js"></script>
    </body>

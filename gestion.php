@@ -19,9 +19,12 @@
           <tr>
             <th scope="col">N.ord</th>
             <th scope="col">Nom</th>
-            <th scope="col">Montant déjà payé</th>
+            <th scope="col">Ccontribution<br>Mensuelles</th>
+            <th scope="col">cas sociaux</th>
+            <th scope="col">Fonction<br>nements</th>
+            <th scope="col">Totaux</th>
             <th scope="col">Dettes</th>
-            <th scope="col">Delais de payement</th>
+            <th scope="col">delais de<br>payement</th>
             <th scope="col"></th>
           </tr>
         </thead>
@@ -31,72 +34,99 @@
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">2</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">3</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">4</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">5</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">6</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">7</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">8</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
           <tr class="colone">
             <th scope="row">9</th>
             <td>Ghislain ghislain ghislain</td>
             <td>50 USD</td>
             <td>10 USD</td>
+            <td>50 USD</td>
+            <td>10 USD</td>
+            <td>10 USD</td>
             <td>1mois</td>
-            <td><a href="comptes.php"><span class="btn buttonbg">Plus</span></a></td>
+            <td><a href="months.php"><span class="btn buttonbg">Plus</span></a></td>
           </tr>
         </tbody>
       </table>

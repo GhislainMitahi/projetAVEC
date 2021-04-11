@@ -64,12 +64,30 @@ if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==
           <tr class="colone">
             <th scope="row">10</th>
             <td>110</td>           
-            <td><span class="btn buttonbg">Voir plus</span></td>
+            <td><a href="gestion.php" class="btn buttonbg">Voir plus</a></td>
           </tr>
          
         </tbody>
       </table>
       <!-- Cas Social -->
+      <h6 class="text-center" style="color:rgb(13, 4, 37)" >Fonctionnement</h6>
+       <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nbre Contribution</th>
+            <th scope="col"> Montant(USD)</th>           
+            <th scope="col">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="colone">
+            <th scope="row">15</th>
+            <td>30</td>           
+            <td><a href="gestion.php" class="btn buttonbg">Voir plus</a></td>
+          </tr>
+         
+        </tbody>
+      </table>
       <h6 class="text-center" style="color:rgb(13, 4, 37)" >Dettes</h6>
        <table class="table">
         <thead>
@@ -83,12 +101,11 @@ if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==
           <tr class="colone">
             <th scope="row">10</th>
             <td>110</td>           
-            <td><span class="btn buttonbg">Voir plus</span></td>
+            <td><a href="gestion.php" class="btn buttonbg">Voir plus</a></td>
           </tr>
          
         </tbody>
       </table>
-    
       <h6 class="text-center" style="color: rgb(13, 4, 37)" >La caisse</h6>
        <table class="table">
         <thead>
@@ -102,7 +119,7 @@ if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==
           <tr class="colone">
             <th scope="row">10</th>
             <td>110</td>           
-            <td><span class="btn buttonbg">Voir plus</span></td>
+            <td><a href="gestion.php" class="btn buttonbg">Voir plus</a></td>
           </tr>
          
         </tbody>
@@ -111,17 +128,16 @@ if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==
     </div>
     </div>
     <p class="text-muted">Les informations dans cette table sont à raport avec ce mois actuel</p>
-<div class="text-center" style="height:40px;background:rgb(13, 4, 37); "> <a href="#toMenu">Aller vers l'ancre</a></div>
-                <script src="js/jquery.js"></script>
-                <script src="js/bootstrap.min.js"></script>
+           <div class="text-center" style="height:40px;background:rgb(13, 4, 37);"> <a href="#toMenu" class="text-white lign">Aller vers le haut de la page</a></div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+      <?php
+        }
+        else // Sinon, on affiche un message d'erreur
+        {
+        echo '<div class="erreur"><p class="text-center "> <a class="txt" href="form.php">Mot de passe incorrect,cliquer dans <br> ce texte pour ressaisir ce le mot de passe </a></p></div>';
+        }
+        ?>
 
-                <?php
-}
-else // Sinon, on affiche un message d'erreur
-{
-echo '<div class="erreur"><p class="text-center "> Mot de passe incorrect</p></div>';
-}
-?>
-
-            </body>
-        </htlm>
+    </body>
+</htlm>
