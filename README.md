@@ -1,6 +1,7 @@
-# projetAVEC
+# projectAVEC
 
 This project is my first Capstone, to test my skills as beginner software developer 😁🙄
+projetcAVEC application is a system for managing a ton in a company.
 
 ## Built With
 
